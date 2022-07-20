@@ -10,10 +10,10 @@ https://docs.google.com/document/d/13sfGbXdJl9gLHDQ-myG3XZgEQUHLQJIEon2qhE9fCvA/
                 4) Any remaining USDT is pocketed as profit.
 
 - How Flash Swaps work
-    1) Uniswap V2 allows flash swaps and actually, under the hood every swap is a flash swap. 
-        2) This simply means that pair contracts send output tokens to the recipient before enforcing that enough input tokens have been received.
-            3)Going back to our example AVAX/USDT pool, a user can flash borrow AVAX from the pool and pay back in USDT instead. 
-                4) This is allowed so long the product of the new reserves matches the previous k.
+    1. Uniswap V2 allows flash swaps and actually, under the hood every swap is a flash swap. 
+        2. This simply means that pair contracts send output tokens to the recipient before enforcing that enough input tokens have been received.
+            3. Going back to our example AVAX/USDT pool, a user can flash borrow AVAX from the pool and pay back in USDT instead. 
+                4. This is allowed so long the product of the new reserves matches the previous k.
 
 ***************************************************************************************************************************************************************************
 # Functions(Code)
